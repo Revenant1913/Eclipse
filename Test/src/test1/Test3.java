@@ -1,20 +1,16 @@
 package test1;
 
+import java.util.*;
 
-public class Test3 extends Thread {
+public class Test3{
 	
-	public static void main(String[] args) {
+	static int [] binarySearch(int [] arr) {
 		
-		Thread obj1 = new Thread("this is a thread");
-		
-		 obj1.start();
-		String s = obj1.getName();
-		  obj1.setName("new");
-		 
-	System.out.println(s);
-	 System.out.println(obj1.getName());
-		}
-
+		return [-1, -1];
 	}
-
+	
+    public static void main(String args[]){
+    
+    }
+}
 
